@@ -12,3 +12,4 @@ URL: http://www.scq.ubc.ca/2015-candy-hierarchy-supplemental-raw-data-and-new-an
 LazyData: TRUE
 VignetteBuilder: knitr
 RoxygenNote: 5.0.0
+BugReports: https://github.com/jennybc/candy/issues
