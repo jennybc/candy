@@ -1,0 +1,14 @@
+Package: candy
+Type: Package
+Title: candy survey data
+Version: 0.0.0.9000
+Authors@R: person("Jennifer", "Bryan", role = c("aut", "cre"),
+  email = "jenny@stat.ubc.ca")
+Description: Data from the 2015 Candy Hierarchy Survey by Benjamin Cohen and Davig Ng.
+License: CC0
+URL: http://www.scq.ubc.ca/2015-candy-hierarchy-supplemental-raw-data-and-new-analyses/,
+    https://docs.google.com/spreadsheets/d/1REZvjqv0lj3dEYb0CsGyDXkXrjhJ4izlAEImgaufjCc/pubhtml,
+    http://boingboing.net/2015/10/31/the-candy-hierarchy-2015-your.html
+LazyData: TRUE
+VignetteBuilder: knitr
+RoxygenNote: 5.0.0
