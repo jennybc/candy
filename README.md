@@ -18,7 +18,7 @@ CONSUMPTION PREFERENCES AND RELATED DEMOGRAPHIC VARIABLES:
     <http://www.scq.ubc.ca/candy-hierarchy-2014-supplementary-raw-data/>
 
 This year in [STAT545](http://stat545-ubc.github.io) were going to use this as 
-our final challenge in data cleaning, wrangling, and exploration As we make 
+our final challenge in data cleaning, wrangling, and exploration. As we make 
 progress ... who knows? Maybe this will become a proper data package? Maybe 
 we'll make a gallery of visualizations? I have no idea where this is going. For 
 now, I'm just parking the raw data in [data-raw](data-raw) for the students to 

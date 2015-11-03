@@ -10,7 +10,10 @@
 library(readr)
 library(dplyr)
 
-raw <- read_csv("CANDY-HIERARCHY-2015 SURVEY-Responses.csv")
+raw <- read_csv("CANDY-HIERARCHY-2015 SURVEY-Responses.csv",
+                col_types = cols(
+                  Timestamp = col_datetime("%m/%d/%Y %H:%M:%S")
+                ))
 raw
 glimpse(raw)
 
