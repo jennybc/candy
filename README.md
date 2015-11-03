@@ -7,6 +7,8 @@ couple of years and writing it up:
     <http://boingboing.net/2015/10/31/the-candy-hierarchy-2015-your.html>
   * 2015 CANDY HIERARCHY: SUPPLEMENTAL RAW DATA AND NEW ANALYSES:  
     <http://www.scq.ubc.ca/2015-candy-hierarchy-supplemental-raw-data-and-new-analyses/>
+  * 2015 data as a Google Sheet:  
+    <https://docs.google.com/spreadsheets/d/1REZvjqv0lj3dEYb0CsGyDXkXrjhJ4izlAEImgaufjCc/pubhtml>
   * STRATIGRAPHICAL ANALYSIS OF FRIDAY-SUNDAY IDENTIFICATION IN RELATION TO SUGAR 
 CONSUMPTION PREFERENCES AND RELATED DEMOGRAPHIC VARIABLES:  
     <http://www.scq.ubc.ca/stratigraphical-analysis-of-friday-sunday-identification-in-relation-to-sugar-consumption-preferences-and-related-demographic-variables/>
