@@ -4,8 +4,8 @@ Benjamin Cohen and David Ng have been conducting a Halloween candy survey for a
 couple of years and writing it up:
 
 * The Candy Hierarchy 2015: your essential guide to Hallowen treats: 
-<http://boingboing.net/2015/10/31/the-candy-hierarchy-2015-your.html> * 2015
-CANDY HIERARCHY: SUPPLEMENTAL RAW DATA AND NEW ANALYSES: 
+<http://boingboing.net/2015/10/31/the-candy-hierarchy-2015-your.html>
+* 2015 CANDY HIERARCHY: SUPPLEMENTAL RAW DATA AND NEW ANALYSES: 
 <http://www.scq.ubc.ca/2015-candy-hierarchy-supplemental-raw-data-and-new-analyses/>
 * STRATIGRAPHICAL ANALYSIS OF FRIDAY-SUNDAY IDENTIFICATION IN RELATION TO SUGAR
 CONSUMPTION PREFERENCES AND RELATED DEMOGRAPHIC VARIABLES: 
