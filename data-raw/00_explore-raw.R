@@ -7,6 +7,9 @@
 #'     keep_md: TRUE
 #' ---
 
+## This file does not contain the code to make the (mildly) cleaner datasets in
+## this directory, since that's your homework.
+
 library(readr)
 library(dplyr)
 

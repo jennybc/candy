@@ -4,6 +4,9 @@ Jenny Bryan
 
 
 ```r
+## This file does not contain the code to make the (mildly) cleaner datasets in
+## this directory, since that's your homework.
+
 library(readr)
 library(dplyr)
 ```
@@ -22,26 +25,29 @@ library(dplyr)
 ```
 
 ```r
-raw <- read_csv("CANDY-HIERARCHY-2015 SURVEY-Responses.csv")
+raw <- read_csv("CANDY-HIERARCHY-2015 SURVEY-Responses.csv",
+                col_types = cols(
+                  Timestamp = col_datetime("%m/%d/%Y %H:%M:%S")
+                ))
 raw
 ```
 
 ```
 ## Source: local data frame [5,658 x 124]
 ## 
-##             Timestamp How old are you?
-##                 (chr)            (chr)
-## 1  10/23/2015 8:46:20               35
-## 2  10/23/2015 8:46:52               41
-## 3  10/23/2015 8:47:34               33
-## 4  10/23/2015 8:47:59               31
-## 5  10/23/2015 8:48:12               30
-## 6  10/23/2015 8:49:07               38
-## 7  10/23/2015 8:50:09               48
-## 8  10/23/2015 8:52:14               39
-## 9  10/23/2015 8:52:22            9E+22
-## 10 10/23/2015 8:53:31               54
-## ..                ...              ...
+##              Timestamp How old are you?
+##                 (time)            (chr)
+## 1  2015-10-23 08:46:20               35
+## 2  2015-10-23 08:46:52               41
+## 3  2015-10-23 08:47:34               33
+## 4  2015-10-23 08:47:59               31
+## 5  2015-10-23 08:48:12               30
+## 6  2015-10-23 08:49:07               38
+## 7  2015-10-23 08:50:09               48
+## 8  2015-10-23 08:52:14               39
+## 9  2015-10-23 08:52:22            9E+22
+## 10 2015-10-23 08:53:31               54
+## ..                 ...              ...
 ## Variables not shown: Are you going actually going trick or treating
 ##   yourself? (chr), [Butterfinger] (chr), [100 Grand Bar] (chr), [Anonymous
 ##   brown globs that come in black and orange wrappers] (chr), [Any
@@ -94,7 +100,7 @@ glimpse(raw)
 ```
 ## Observations: 5,658
 ## Variables: 124
-## $ Timestamp                                                                                                         (chr) ...
+## $ Timestamp                                                                                                         (time) ...
 ## $ How old are you?                                                                                                  (chr) ...
 ## $ Are you going actually going trick or treating yourself?                                                          (chr) ...
 ## $ [Butterfinger]                                                                                                    (chr) ...
@@ -250,5 +256,5 @@ glimpse(raw)
 ---
 title: "00_explore-raw.R"
 author: "jenny"
-date: "Mon Nov  2 22:56:47 2015"
+date: "Thu Nov  5 01:08:52 2015"
 ---
