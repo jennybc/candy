@@ -1,5 +1,5 @@
-id,timestamp,age,trick_or_treat,n_mints,dress,font
-ID0178,2015-10-23T10:18:18Z,12,Yes,14,Blue and black,Dont have one
-ID2254,2015-10-28T14:52:57Z,29,No,69,Blue and black,Helvetica
-ID4817,2015-10-29T09:16:10Z,61,No,2,NA,one i am using
-ID5522,2015-10-30T10:08:16Z,60,No,5,White and gold,Arial
+id,age,timestamp,trick_or_treat,n_mints,dress,font
+ID0178,12,2015-10-23T10:18:18Z,Yes,14,Blue and black,Dont have one
+ID2254,29,2015-10-28T14:52:57Z,No,69,Blue and black,Helvetica
+ID4817,61,2015-10-29T09:16:10Z,No,2,NA,one i am using
+ID5522,60,2015-10-30T10:08:16Z,No,5,White and gold,Arial
