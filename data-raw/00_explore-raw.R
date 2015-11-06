@@ -111,7 +111,7 @@ names(id_dat) <- df$new_name[match(df$orig_name, names(id_dat))]
 id_dat
 
 id_dat %>%
-  mutate(n_mints = str_sub(1, 53))
+  mutate(n_mints = str_sub(n_mints, 1, 53))
 
 write_csv(id_dat, "candy-id.csv")
 

@@ -370,7 +370,7 @@ id_dat
 
 ```r
 id_dat %>%
-  mutate(n_mints = str_sub(1, 53))
+  mutate(n_mints = str_sub(n_mints, 1, 53))
 ```
 
 ```
@@ -378,16 +378,16 @@ id_dat %>%
 ## 
 ##        id   age           timestamp trick_or_treat n_mints          dress
 ##     (chr) (int)              (time)          (chr)   (chr)          (chr)
-## 1  ID0001    35 2015-10-23 08:46:20             No         White and gold
-## 2  ID0002    41 2015-10-23 08:46:52             No         Blue and black
-## 3  ID0003    33 2015-10-23 08:47:34             No         Blue and black
-## 4  ID0004    31 2015-10-23 08:47:59             No         White and gold
-## 5  ID0005    30 2015-10-23 08:48:12             No         White and gold
-## 6  ID0006    38 2015-10-23 08:49:07             No         Blue and black
-## 7  ID0007    48 2015-10-23 08:50:09             No         Blue and black
-## 8  ID0008    39 2015-10-23 08:52:14             No         Blue and black
-## 9  ID0010    54 2015-10-23 08:53:31             No         Blue and black
-## 10 ID0011    40 2015-10-23 08:54:15             No         White and gold
+## 1  ID0001    35 2015-10-23 08:46:20             No       2 White and gold
+## 2  ID0002    41 2015-10-23 08:46:52             No      10 Blue and black
+## 3  ID0003    33 2015-10-23 08:47:34             No       4 Blue and black
+## 4  ID0004    31 2015-10-23 08:47:59             No       5 White and gold
+## 5  ID0005    30 2015-10-23 08:48:12             No       0 White and gold
+## 6  ID0006    38 2015-10-23 08:49:07             No       2 Blue and black
+## 7  ID0007    48 2015-10-23 08:50:09             No       0 Blue and black
+## 8  ID0008    39 2015-10-23 08:52:14             No      12 Blue and black
+## 9  ID0010    54 2015-10-23 08:53:31             No       7 Blue and black
+## 10 ID0011    40 2015-10-23 08:54:15             No       4 White and gold
 ## ..    ...   ...                 ...            ...     ...            ...
 ## Variables not shown: font (chr).
 ```
@@ -448,5 +448,5 @@ etc. Give yourself some achievable goals!
 ---
 title: "00_explore-raw.R"
 author: "jenny"
-date: "Fri Nov  6 00:22:26 2015"
+date: "Fri Nov  6 11:01:00 2015"
 ---
